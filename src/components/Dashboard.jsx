@@ -3,7 +3,6 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Navigate, Outlet, useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from '../../firebse.config';
-
 import { LogOut } from 'lucide-react';
 
 const Dashboard = () => {
